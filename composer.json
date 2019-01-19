@@ -1,0 +1,27 @@
+{
+  "name": "iamandrewluca/yin-yang",
+  "description": "WordPress Plugin description",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "roots"
+  ],
+  "homepage": "https://roots.io",
+  "license": "MIT",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Andrew Luca",
+      "email": "thendrluca@gmail.com"
+    }
+  ],
+  "require": {
+    "composer/installers": "^1.6",
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "YinYang\\": "src"
+    }
+  }
+}
