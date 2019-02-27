@@ -1,12 +1,12 @@
 {
-  "name": "iamandrewluca/yin-yang",
-  "description": "WordPress Plugin description",
+  "name": "iamandrewluca/simply-yes-no",
+  "description": "Simply Yes or No",
   "keywords": [
     "wordpress",
     "plugin",
     "roots"
   ],
-  "homepage": "https://roots.io",
+  "homepage": "http://github.com/iamandrewluca/simply-yes-no",
   "license": "MIT",
   "type": "wordpress-plugin",
   "authors": [
@@ -17,11 +17,11 @@
   ],
   "require": {
     "composer/installers": "^1.6",
-    "php": "^7.1"
+    "php": "^7.2"
   },
   "autoload": {
     "psr-4": {
-      "YinYang\\": "src"
+      "SimplyYesNo\\": "src"
     }
   }
 }
